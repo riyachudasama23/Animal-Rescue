@@ -1,0 +1,70 @@
+*{
+  padding: 0%;
+}
+
+body{
+  background-color: white;
+  width: 100%;
+}
+
+.navbar{
+  background: transparent;
+}
+
+/* Adjust image size */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: transparent !important; /* Make navbar transparent */
+}
+
+/* Custom CSS for the container */
+.container {
+  position: relative;
+  z-index: 1; /* Ensure the container is above the image */
+}
+
+/* Custom CSS for the background images */
+.bg1,
+.bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-link{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #023C5A;
+  font: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link:hover{
+  color: rgb(241, 66, 104);
+}
+
+.search{
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border-radius: 60px;
+  border: 2px solid rgb(241, 66, 104);
+  margin-right: -35px;
+}
+
+.btn0{
+  height: 40px;
+  width: 50%;
+  background: rgb(241, 66, 104);
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
