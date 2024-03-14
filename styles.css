@@ -3,12 +3,12 @@
 }
 
 body{
-  background-color: white;
+  background: url(images/f2.png);
   width: 100%;
-}
-
-.navbar{
-  background: transparent;
+  display: flex;
+  height: 800px;
+  background-size: cover;
+  background-position: right;
 }
 
 /* Adjust image size */
@@ -21,14 +21,14 @@ body{
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: transparent !important; /* Make navbar transparent */
+  background-color: transparent; /* Make navbar transparent */
 }
 
 /* Custom CSS for the container */
-.container {
+/* .container {
   position: relative;
-  z-index: 1; /* Ensure the container is above the image */
-}
+  z-index: 1; /* Ensure the container is above the image 
+} */
 
 /* Custom CSS for the background images */
 .bg1,
@@ -67,4 +67,35 @@ body{
   color: white;
   font-weight: 700;
   border-radius: 60px;
+}
+
+.main {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  width: 1200px;
+}
+
+.donate{
+  height: 60px;
+  color: white;
+  background-color: rgb(241, 66, 104);
+  border-radius: 60px;
+  outline: none;
+  width: 200px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+h1{
+  font-size: 47px;
+  font-weight: 700;
+  color: #023C5A;
+}
+
+h6{
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
 }
