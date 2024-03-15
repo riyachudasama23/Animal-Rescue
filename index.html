@@ -7,113 +7,155 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  
-  <div class="body">
 
-      <!-- <img src="images/f2.png" alt="" height="800px">       -->
+  <div class="website">
   
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="images/dog-bg.png" alt="tiny Paws Rescue" height="100">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#blog">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Us</a>
-              </li>
-              
-            </ul>
-            <form class="d-flex">
-              <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn0" type="submit">Search</button>
-            </form>
+    <div class="body">
+    
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/dog-bg.png" alt="tiny Paws Rescue" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home" >Home</a>
+                  <!-- onclick="scrollToSection('home') -->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services" onclick="scrollToSection('body2')">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about" onclick="scrollToSection('body3')">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact" onclick="scrollToSection('body3')">Contact Us</a>
+                </li>                
+              </ul>
+
+              <form class="d-flex">
+                <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn0" type="submit">Search</button>
+              </form>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
 
-      <section class="main">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-5">
-              <h1>Saving Animals <br> Changing Lives</h1>
-              <h6>Speak for the voiceless</h6>
-              <button class="donate">Donate Now</button>
+        <section class="main">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-5">
+                <h1>Saving Animals <br> Changing Lives</h1>
+                <h6>Speak for the voiceless. Street animals need our protection. Help them today.</h6>
+                <button class="donate">Donate Now</button>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+    </div>
+
+    <div id="services" class="body2">
+      <div class="container">
+
+        <p class="service">Our Services</p>
+
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/german-shepherd-dog-rescue.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">We Nurture</p>
+                <p class="card-small-text"></p>Every year we rescue more than 15,000 injured animals in Ahemdabad, India.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/p9.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">We Rescue</p>
+                <p class="card-small-text"></p>Every year we rescue more than 15,000 injured animals in Ahemdabad, India.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/p7.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">We Feed</p>
+                <p class="card-small-text"></p>Every year we rescue more than 15,000 injured animals in Ahemdabad, India.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/p5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">We Care</p>
+                <p class="card-small-text">Every day we save animals with fractures, wounds, viral diseases, cancer etc. </p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-  
-  </div>
+      </div> 
+    </div>
 
-  <div class="body2">
-    <div class="container">
+    <div id="about" class="body3">
+      <p class="about">About Us</p>
 
-    <p>Our Services</p>
+      <div class="container">
+        <!-- <div class="row">
+          <p>Our Mission</p>
+          <p>Be the voice, to give care and hope to the stray dogs and animals of India by,</p>
+        </div> -->
+        <!-- <div class="row">
+          
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0" width = "100px">
+            <h4 id="scrollspyHeading1">First heading</h4>
+            <p>Help the sick/injured/wounded stray animals by rescuing and providing medical care.</p>
+            <h4 id="scrollspyHeading2">Second heading</h4>
+            <p>Implementing Animal Birth Control surgeries and anti-rabies vaccination  (ABC-AR) programme to the rescued animals, after their treatment, to humanely control the stray dog population to keep them healthy, and to reduce the increasing human-animal conflicts. </p>
+            <p>Prevention of cruelty to animals in co-operation with other NGO’s, police, law, government and the public.</p>
+            <p>Promotion of animal welfare and humane education programmes in community, schools, colleges and where ever the need is.</p>
+            <p>Provide veterinary care for sick street animals including birds and pet animals through our veterinary hospital and rescue centre and medical camps.</p>
+            <p>Provide food, medical care, sterilization and vaccination for disabled, sick, ill treated and abandoned animals.</p>
+            <p>Make sure of the best possible medical care to the pet animals at our hospital. </p>
+          </div>
+        </div> -->
 
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-        </div>
-        <div class="carousel-item">
-          <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-        </div>
-        <div class="carousel-item">
-          <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+        <div class="row">
+          <div class="col">
+            <p class="tinypaw">Tiny Paws Rescue is a small independent registered charitable Trust and a Non- Governmental Organisation operating in Pondicherry and its surroundings, South India. Our evolution came as the direct result of four likeminded animal loving friends who were working in an animal rescue centre/ sanctuary in Gujarat from where we could gain much experience in animal welfare and made ourselves expertise in the field.<br><br>
+
+            Whilst visiting Ahemdabad we recognised that our combined skills/knowledge was needed for the betterment of animal-human-environmental co-existence, by giving care and treatment to the local street dogs and stray animals. The decision to contribute our best to animals, nature and thereby to society made us register the NGO "Tiny Paws Charitable Trust” on 18 August, 2015 in Ahemdabad.</p>
+          </div>
+
+          <div class="col">
+            <img src="images/Peggy-Adams-Volunteer.jpg" alt="" class="peggy">
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-  </div>
+
+    <div id="contact" class="body4">
+      <button class="Volunteer">Become a Volunteer</button>
+    </div>
   
 
-  
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
 </body>
 </html>

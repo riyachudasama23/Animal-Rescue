@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 *{
   padding: 0%;
 }
 
 body{
+  background: white;
+}
+
+.body{
   background: url(images/f2.png);
   width: 100%;
   display: flex;
@@ -21,20 +27,7 @@ body{
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: transparent; /* Make navbar transparent */
-}
-
-/* Custom CSS for the container */
-/* .container {
-  position: relative;
-  z-index: 1; /* Ensure the container is above the image 
-} */
-
-/* Custom CSS for the background images */
-.bg1,
-.bg {
-  position: relative;
-  overflow: hidden;
+  background-color: transparent; 
 }
 
 .nav-link{
@@ -42,7 +35,8 @@ body{
   margin-left: 10px;
   color: #023C5A;
   font: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: 'Fredoka', sans-serif;
 }
 
 .nav-link:hover{
@@ -69,6 +63,10 @@ body{
   border-radius: 60px;
 }
 
+.btn0:hover{
+  background: #023C5A;
+}
+
 .main {
   position: absolute;
   top: 250px;
@@ -88,6 +86,11 @@ body{
   margin-left: 50px;
 }
 
+.donate:hover{
+  background-color: #023C5A;
+
+}
+
 h1{
   font-size: 47px;
   font-weight: 700;
@@ -96,6 +99,105 @@ h1{
 
 h6{
   font-size: 20px;
-  margin-left: 60px;
   margin-top: 20px;
+  width: 350px;
+}
+
+.body2{
+  margin-top: 40px;
+  background: white;
+  width: 100%;
+  display: flex;
+  height: 570px;
+}
+
+.card{
+  border: none;
+}
+
+.card-body{
+  width: 80%;
+  border-radius: 20px;
+  margin-top: -30px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  margin: -40px auto 0;
+}
+
+
+.card-text{
+  color: #023C5A;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.card-small-text{
+  color: #023C5A;
+  font-size: 15px;
+}
+
+.card-img-top{
+  height: 260px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service{
+  font-size: 47px;
+  color: #023C5A;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about{
+  font-size: 47px;
+  color: #023C5A;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.body3{
+  background-color: #CFF1FF;
+  height: 600px;
+}
+
+.peggy{
+  border-radius: 20px;
+}
+
+.tinypaw{
+  font-size: 18px;
+  color: #023C5A;
+  padding-top: 30px;
+}
+
+.body4{
+    /* background: url(images/p4.jpg); */
+    background: url(images/fig-vol.png);
+    width: 100%;
+    display: flex;
+    height: 800px;
+    background-size: cover;
+    background-position: top;
+}
+
+.Volunteer{
+  color: white;
+  background-color: rgb(241, 66, 104);
+  border-radius: 60px;
+  outline: none;
+  width: 200px;
+  border: none;
+  height: 60px;
+  margin-top: 100px;
+  margin-left: 675px;
+}
+
+.Volunteer:hover{
+  background-color: #023C5A;
 }
